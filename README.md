@@ -1,2 +1,2 @@
 # ArduApp
-Proyecto ASDO
+Github para el proyecto de ASDO
