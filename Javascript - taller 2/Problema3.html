@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 3</title>
+    <script src="problema3.js"></script>
+</head>
+<body>
+
+    <div id="n_personas">Personas registradas = 0</div>
+    <h3>Datos persona</h3>
+    Nombre = <input type="text" id="nombre" value=""> <br>
+    Cédula = <input type="text" id="cedula" value=""> <br>
+    Fecha de nacimiento = <input type="text" id="f_nacimiento" value=""> <br>
+    Correo electrónico = <input type="text" id="correo" value=""> <br>
+    Ciudad de residencia = <input type="text" id="c_residencia" value=""> <br>
+    Ciudad de origen = <input type="text" id="c_origen" value=""> <br><br>
+    Artista = <input type="text" id="artista" value=""> <br>
+    Título 1 = <input type="text" id="titulo1" value=""> <br>
+    Título 2 = <input type="text" id="titulo2" value=""> <br>
+    Título 3 = <input type="text" id="titulo3" value=""> <br><br>
+    <button onclick="registrarPersona()">Registrar persona</button>
+
+    <h3>Buscar persona</h3>
+    Posición = <input type="text" id="pos" value=""> <br><br>
+    <button onclick="buscarPersona()">Buscar persona</button>
+    <div id="datos"></div>
+
+</body>
+</html>
